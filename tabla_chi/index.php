@@ -37,12 +37,12 @@ $(document).ready(function(){
         var last_name = $('#last_name').text();  
         if(first_name == '')  
         {  
-            alert("Enter First Name");  
+            alert("Nombre: ");  
             return false;  
         }  
         if(last_name == '')  
         {  
-            alert("Enter Last Name");  
+            alert("Apellidos");  
             return false;  
         }  
         $.ajax({  
@@ -83,7 +83,7 @@ $(document).ready(function(){
     });  
     $(document).on('click', '.btn_delete', function(){  
         var id=$(this).data("id3");  
-        if(confirm("Are you sure you want to delete this?"))  
+        if(confirm("Estas seguro que deseas eliminarlo?"))  
         {  
             $.ajax({  
                 url:"delete.php",  

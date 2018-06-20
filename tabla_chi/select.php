@@ -8,8 +8,8 @@
            <table class="table table-bordered">  
                 <tr>  
                      <th width="10%">Id</th>  
-                     <th width="40%">First Name</th>  
-                     <th width="40%">Last Name</th>  
+                     <th width="40%">Nombres</th>  
+                     <th width="40%">Apellidos</th>  
                      <th width="10%">Delete</th>  
                 </tr>';  
  $rows = mysqli_num_rows($result);
